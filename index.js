@@ -21,5 +21,5 @@ function deepestChild(){
   for (let i = 0; i < parent.length; i++){
     child = parent[i];
   }
-  return (child.innerHTML);
+  return (child);
 }
